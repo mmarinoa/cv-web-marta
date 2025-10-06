@@ -5,12 +5,26 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Marta | CV Web</title>
   <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
 </head>
 <body>
-  <header>
-    <h1>Marta</h1>
-    <p>Estudiante de Diseño de Aplicaciones Multiplataforma</p>
-  </header>
+  <section id="hero">
+  <div class="hero-content">
+    <img src="foto_formal.jpeg" alt="Foto de Marta" class="foto-perfil">
+    <h1 class="nombre">Marta Mariño Alvite</h1>
+    <p class="titulo">Estudiante de Diseño de Aplicaciones Multiplataforma</p>
+    <div class="contacto-iconos">
+      <div class="info-copiable">
+        <p>Email: <span id="email">martamarinalvite@gmail.com</span> <button onclick="copiarTexto('email')">Copiar</button></p>
+        <p>Teléfono: <span id="telefono">666 155 521</span> <button onclick="copiarTexto('telefono')">Copiar</button></p>
+      </div>
+      <a href="https://github.com/mmarinoa" target="_blank"><i class="fab fa-github"></i></a>
+      <a href="https://www.linkedin.com/in/marta-mariño-alvite-386019350" target="_blank"><i class="fab fa-linkedin"></i></a>
+    </div>
+    <button id="scrollBtn">Ver más</button>
+  </div>
+</section>
+
 
   <section id="sobre-mi">
     <h2>Sobre mí</h2>

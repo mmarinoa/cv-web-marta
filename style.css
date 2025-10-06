@@ -1,21 +1,132 @@
+/* Tipografías elegantes */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Playfair+Display:wght@700&display=swap');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css');
+
+/* Estilo general del cuerpo */
 body {
-  font-family: 'Segoe UI', sans-serif;
+  font-family: 'Inter', sans-serif;
+  background-color: #fdfaf6;
+  color: #2e2e2e;
   margin: 0;
   padding: 0;
-  background-color: #f4f4f4;
-  color: #333;
 }
 
+/* Sección principal tipo hero */
+#hero {
+  height: 100vh;
+  background: url('fondo-marta.png') no-repeat center center;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  padding: 2rem;
+  color: #2e2e2e;
+}
+
+/* Foto de perfil */
+.foto-perfil {
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  object-fit: cover;
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+  margin-bottom: 1rem;
+}
+
+/* Nombre con tipografía elegante */
+.nombre {
+  font-size: 2.8rem;
+  font-family: 'Playfair Display', serif;
+  font-weight: 700;
+  margin: 0.5rem 0;
+  color: #1a1a1a;
+}
+
+/* Título debajo del nombre */
+.titulo {
+  font-size: 1.2rem;
+  color: #3a3a3a;
+  margin-bottom: 1rem;
+}
+
+/* Iconos de contacto */
+.contacto-iconos a {
+  margin: 0 10px;
+  font-size: 1.5rem;
+  color: #2e2e2e;
+  transition: color 0.3s ease;
+}
+
+.contacto-iconos a:hover {
+  color: #b8a58c;
+}
+
+/* Botón de scroll */
+#scrollBtn {
+  margin-top: 2rem;
+  padding: 0.8rem 1.5rem;
+  font-size: 1rem;
+  border: none;
+  background-color: #b8a58c;
+  color: #1a1a1a;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  font-family: 'Inter', sans-serif;
+}
+
+#scrollBtn:hover {
+  background-color: #d6c7b0;
+  color: #000;
+}
+
+/* Botones para copiar info */
+.info-copiable p {
+  font-size: 1.1rem;
+  margin: 0.5rem 0;
+  color: #2e2e2e;
+}
+
+.info-copiable span {
+  font-weight: 600;
+  font-family: 'Playfair Display', serif;
+  color: #1a1a1a;
+}
+
+.info-copiable button {
+  margin-left: 10px;
+  padding: 0.4rem 0.8rem;
+  font-size: 0.9rem;
+  background-color: #d6c7b0;
+  color: #000;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  font-family: 'Inter', sans-serif;
+}
+
+.info-copiable button:hover {
+  background-color: #b8a58c;
+  color: #000;
+}
+
+/* Encabezado de secciones */
 header {
-  background-color: #4a90e2;
-  color: white;
+  background-color: #d6c7b0;
+  color: #000;
   padding: 2rem;
   text-align: center;
+  font-family: 'Playfair Display', serif;
 }
 
+/* Secciones generales */
 section {
   padding: 2rem;
   margin: 1rem;
-  background-color: white;
+  background-color: #ffffff;
   border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.05);
 }
